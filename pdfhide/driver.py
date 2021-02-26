@@ -61,7 +61,8 @@ def compress(input,output):
 
 # Removes file
 def delete(file):
-	os.system('rm '+file)
+	os.remove(file)
+
 
 # Fixes, compresses, and cleans
 def fcc(input,output):
